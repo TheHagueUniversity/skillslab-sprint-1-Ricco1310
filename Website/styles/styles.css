@@ -1,0 +1,52 @@
+.MainHeader{
+    font-size: 16px;
+    position: relative;
+    max-width: 100%;
+    background: dimgray; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(dimgray, gray, lightgray); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(dimgray, gray, lightgray); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(dimgray, gray, lightgray); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(dimgray, gray, lightgray); /* Standard syntax */
+}
+.MainHeaderLogo{
+    position: relative;
+    max-height: 10rem;
+    padding-right: 100px;
+}
+.MainHeaderNav{
+    float: right;
+    padding: 5px;
+}
+.MainHeaderNavButton{
+    position: relative;
+}
+.MainHeaderNavButton li{
+    display: inline;
+    list-style-type: none;
+    border: 10px solid black;
+    padding: 5px;
+}
+.MainHeaderNavButton li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+.MainContent{
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+}
+.MainFooter{
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    color: white;
+    background: dimgray; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(dimgray, gray, lightgray); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(dimgray, gray, lightgray); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(dimgray, gray, lightgray); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(dimgray, gray, lightgray); /* Standard syntax */
+}
